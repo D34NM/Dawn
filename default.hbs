@@ -48,6 +48,7 @@
                     {{/match}}
                 {{else}}
                     <button class="gh-search gh-icon-btn" data-ghost-search>{{> "icons/search"}}</button>
+
                 {{/unless}}
             </div>
         </div>
@@ -71,7 +72,7 @@
                 {{@site.title}} © {{date format="YYYY"}}
             </div>
             <nav class="gh-foot-menu">
-                
+                {{navigation type="secondary"}}
             </nav>
             <div class="gh-powered-by">
                 <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
